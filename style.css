@@ -135,6 +135,14 @@ ul li:not(:last-child) {
   animation: hilang 1s ease-in-out 1s;
 }
 
+/* media quary */
+@media screen and (max-width: 480px) {
+  p {
+    font-size: 0.75rem;
+    padding-left: 10px;
+  }
+}
+
 @keyframes muncul {
   from {
     opacity: 0;
